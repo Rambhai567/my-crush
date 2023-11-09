@@ -170,6 +170,22 @@ img {
   width: 100%; 
   left: 0;
 }
+@media (max-width:2000px) {
+  .tarot-card {
+    width: 300px;
+    height: 500px;
+  }
+  img {
+    width: 300px;
+    height: 700px;
+  }
+}
+@media (max-width:900px) {
+  img {
+    width: 280px;
+    height: 600px;
+  }
+}
 @media (min-width:800px) {
   .tarot-card {
     width: 600px;
@@ -180,3 +196,19 @@ img {
     /* height: 700px; */
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
